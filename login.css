@@ -79,7 +79,10 @@ h2 {
   text-align: left;
   margin-top: 5px;
 }
-
+.form button:last-child a{
+  color:#ffffff;
+  font-weight:400;
+}
 .container a{
   color: #5372F0;
   text-decoration: none;
