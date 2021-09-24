@@ -32,7 +32,7 @@ body{
     transition: 0.4s;
   }
   .service:hover{
-    background: rgb(194, 188, 188);
+    background: rgb(194, 188, 188,0.2);
     
   }
   
@@ -50,10 +50,10 @@ body{
   }
 .services button {
   cursor: pointer;
-  background-color: #6666CC;
-  border: 2px solid #6666CC;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(35,35,134,1) 0%, rgba(0,212,255,1) 100%);
+  border: none;
   border-radius: 6px;
-  color: black;
+  color: white;
   display: block;
   font-size: 16px;
   padding: 10px;
