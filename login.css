@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #29649e;
+  background-color: #20B2AA;
   font-family: 'Open Sans', sans-serif;
   display: flex;
   align-items: center;
@@ -69,8 +69,8 @@ h2 {
 
 .form button {
   cursor: pointer;
-  background-color: #3498db;
-  border: 2px solid #3498db;
+  background-color: #20B2AA;
+  border: 2px solid #20B2AA;
   border-radius: 6px;
   color: #fff;
   display: block;
@@ -89,7 +89,7 @@ h2 {
   font-weight:400;
 }
 .container a{
-  color: #5372F0;
+  color: #007771;
   text-decoration: none;
   font-weight: bold;
 }

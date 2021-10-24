@@ -4,17 +4,25 @@ body{
     padding: 0;
     font-family: "montserrat",sans-serif;
   }
+section{
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(bgnew.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+  
   .services{
-    background: #f1f1f1;
+   
     text-align: center;
+    margin-top: -25px;
   }
   .services h1{
+    color: #20B2AA;
     display: inline-block;
     text-transform: uppercase;
-    border-bottom: 4px solid #3498db;
     font-size: 24px;
-    padding-bottom: 10px;
-    margin-top: 40px;
+    padding-bottom: 0px;
+    margin-top: 16px;
   }
   .cen{
     max-width: 1200px;
@@ -44,24 +52,67 @@ body{
     
   }
   .service p{
-    color: gray;
+    color: white;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 100;
   }
 .services button {
   cursor: pointer;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(35,35,134,1) 0%, rgba(0,212,255,1) 100%);
+  background: #008B8B;
   border: none;
-  border-radius: 6px;
   color: white;
   display: block;
   font-size: 16px;
   padding: 10px;
   margin-top: 20px;
   width: 100%;
-
-
 }
+
+  header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo{
+    position: relative;
+    color:#20B2AA;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+  
+  }
+  header .menu-btn{
+    color: white;
+  }
+  .menu-btn:hover{
+  color: #7FFFD4;
+  }
+  header .navigation a{
+
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+  
+  }
+  
+  header .navigation a:not(:last-child){
+    margin-right: 30px;
+  }
+  
+  header .navigation a:hover{
+    background:#008B8B;
+  }
 
 @media screen and (max-width: 800px) {
   .service{
@@ -72,5 +123,19 @@ body{
   .service{
     width: 80%;
   }
-}
+  .services button {
+    cursor: pointer;
+    background: #008B8B;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
   
+  
+  }
+}
+ 
