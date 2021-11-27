@@ -14,7 +14,7 @@ section{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(bgnew.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(ios_14_wwdc_2020_iphone_12_ipados_blue_with_light_orange_stock_4k_hd_abstract.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -35,13 +35,13 @@ label{
 
 header .logo{
   position: relative;
-  color:#20B2AA;
-  font-size: 25px;
+  color:white;
+  font-size: 30px;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: 1px;
-
+  animation: step-start;
 }
 header .menu-btn{
   color: white;
@@ -53,10 +53,10 @@ header .navigation a{
   color:white;
   font-size: 18px;
   text-decoration: none;
-  font-weight: 250;
+  font-weight: 450;
   letter-spacing: 1px;
   padding: 2px 15px;
-  border-radius: 20px;
+  border-radius: 10px;
   transition: 0.3s;
 }
 
@@ -65,7 +65,7 @@ header .navigation a:not(:last-child){
 }
 
 header .navigation a:hover{
-  background: #008B8B;
+  background: #d44040;
 }
 
 .content{
@@ -75,17 +75,19 @@ header .navigation a:hover{
 }
 
 .content .info h2{
-  color: #7FFFD4;
+  color: white;
   font-size: 55px;
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 60px;
   margin-bottom: 30px;
+  
 }
 
 .content .info h2 span{
-  color:#7FFFD4;
+  color:white;
   font-size: 50px;
+  
 }
 
 .content .info p{
@@ -93,25 +95,29 @@ header .navigation a:hover{
   font-size: 16px;
   font-weight: 300;
   margin-bottom: 40px;
+  max-width: 70%;
 }
 
 .content .info-btn{
   color: #fff;
-  background:#20B2AA;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: 2px;
-  padding: 10px 20px;
-  margin:5px 10px 5px 0px;
-  border-radius: 5px;
-  transition: 0.3s;
+  background-image:linear-gradient(to right, #C04848 0%, #480048  51%, #C04848  100%);
+  margin: 10px;
+  padding: 15px 45px;
   text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 1px #eee;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 20%;
 
 }
 
 .content .info-btn:hover{
-  background: #008B8B;
+  color:black;
+        
 }
 
 #check{
@@ -221,7 +227,7 @@ header .navigation a:hover{
     line-height: 45px;
   }
   .content .btn{
-      display:flex;
+      display:inline;
       flex-direction: column;
   }
   .content .info-btn{
@@ -231,7 +237,8 @@ header .navigation a:hover{
     margin:8px 10px 5px 0px;
     border-radius: 5px;
     text-align: center;
-  
+    width: 50%;
+  align-items: center;
   }
 
   .content .info p{
