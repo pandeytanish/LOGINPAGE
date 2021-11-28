@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+       <h1>EXPENSE TRACKER</h1>
+       <marquee>Tracks your expense, makes your life better!!</marquee>
+    </div>
+    <div id="cover">
+       <div id="cover-content">
+         <label>Enter your salary</label><br>
+         <input id ="salary"type="number" placeholder="Type here..."><br>
+         <label>Enter your expense</label><br>
+         <table>
+             <thead>
+               <th>Expense 1</th>
+               <th>Expense 2</th>
+               <th>Expense 3</th>
+               <th>Expense 4</th>
+               <th>Expense 5</th>
+             </thead>
+             <tbody>
+               <input id="E1" type="number" placeholder="type here..">
+               <input id="E2" type="number" placeholder="type here..">
+               <input id="E3" type="number" placeholder="type here..">
+               <input id="E4" type="number" placeholder="type here..">
+               <input id="E5" type="number" placeholder="type here..">
+             </tbody>
+             <tfoot>
+
+             </tfoot>
+         </table>
+       </div>
+    </div>
+    <div id="footet">
+        <button onclick="calculateExpense()">Show my expense</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

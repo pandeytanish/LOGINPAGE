@@ -12,27 +12,45 @@
 
 
 <body>
+  <img src = "loader.green.gif" height="90em" width="90em"></img>
   <div class="container">
     <form id="form" class="form">
       <label for="" class="close-btn"></label>
       <h2>Login Now</h2>
       <div class="form-control">
         <label for="username">Username</label>
-        <input type="text" id="username" placeholder="Enter username" />
+        <input type="text" id="username" placeholder="Enter username" required/>
 
       </div>
 
       <div class="form-control">
         <label for="password">Password</label>
-        <input type="password" id="password" placeholder="Enter password" />
+        <input type="password" id="password" placeholder="Enter password" required/>
         <div class="forgot">
 
           <a href="forgot.html">Forgot password?</a>
         </div>
         <BR>
         Not yet member? <a href="register.html">SIGNUP NOW</a>
-        <button type="submit"><a href="services.html"></a> LOGIN</button>
-        <button type="sign in"><a href="https://myaccount.google.com/?utm_source=sign_in_no_continue">SIGN IN WITH GOOGLE</a></button>
+        <!-- <button><a style="color: white;"href="SignedIn.html">LOGIN</a></button> -->
+        <button id="myBtn" id="">login</button>
+        <script>
+          document.getElementById("myBtn").addEventListener("click", myFunction);
+          function myFunction(){
+            // <img src = "loader.green.gif" height="10em" width="10em"></img>
+            // const Name = getElementById("username").value
+            // const Password = getElementById("password").value
+            // Name.value = "";
+            // Password.value = "";
+          //  setTimeout(()=>{
+             
+          //  }, 3000)
+
+           window.location.href="SignedIn.html";
+            
+          }
+        </script>
+        <button ><a href="https://myaccount.google.com/?utm_source=sign_in_no_continue">SIGN IN WITH GOOGLE</a></button>
 
 
 
