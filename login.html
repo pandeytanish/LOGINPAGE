@@ -12,7 +12,7 @@
 
 
 <body>
-  <img src = "loader.green.gif" height="90em" width="90em"></img>
+  <!-- <img src = "loader.green.gif" height="90em" width="90em"></img> -->
   <div class="container">
     <form id="form" class="form">
       <label for="" class="close-btn"></label>
@@ -33,10 +33,11 @@
         <BR>
         Not yet member? <a href="register.html">SIGNUP NOW</a>
         <!-- <button><a style="color: white;"href="SignedIn.html">LOGIN</a></button> -->
-        <button id="myBtn" id="">login</button>
+        <button id="myBtn" id="" type="submit">login</button>
         <script>
           document.getElementById("myBtn").addEventListener("click", myFunction);
-          function myFunction(){
+          function myFunction(e){
+            e.preventDefault()
             // <img src = "loader.green.gif" height="10em" width="10em"></img>
             // const Name = getElementById("username").value
             // const Password = getElementById("password").value
@@ -51,7 +52,7 @@
           }
         </script>
         <button ><a href="https://myaccount.google.com/?utm_source=sign_in_no_continue">SIGN IN WITH GOOGLE</a></button>
-
+      </div>
 
 
 
