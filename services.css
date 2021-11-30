@@ -5,7 +5,7 @@ body{
     font-family: "montserrat",sans-serif;
   }
 section{
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(bgnew.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(ios_14_wwdc_2020_iphone_12_ipados_blue_with_light_orange_stock_4k_hd_abstract.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,7 +17,7 @@ section{
     margin-top: -25px;
   }
   .services h1{
-    color: #20B2AA;
+    color: white;
     display: inline-block;
     text-transform: uppercase;
     font-size: 24px;
@@ -39,9 +39,12 @@ section{
     cursor: pointer;
     transition: 0.4s;
   }
-  .service:hover{
-    background: rgb(194, 188, 188,0.2);
-    
+  .service button:hover{
+    background:transparent;
+  border: 1px solid #C04848 ;
+  color:white;
+  font-weight:550;
+  
   }
   
   .service h3{
@@ -54,25 +57,35 @@ section{
   .service p{
     color: white;
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 200;
   }
 .services button {
   cursor: pointer;
-  background: #008B8B;
+  background-image:linear-gradient(to right, #C04848 0%, #480048  51%);
   border: none;
+  border-radius: 10px;
   color: white;
   display: block;
   font-size: 16px;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 100%;
+  text-decoration: none;
+}
+.cen .service button h3 a{
+  text-decoration:none;
+  color:#fff;
+}
+.cen button:hover{
+  text-decoration: none;
 }
 
   header{
     position: relative;
     top: 0;
     width: 100%;
-    padding: 30px 40px;
+    padding: 30px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,7 +93,7 @@ section{
   
   header .logo{
     position: relative;
-    color:#20B2AA;
+    color:white;
     font-size: 25px;
     text-decoration: none;
     text-transform: uppercase;
@@ -92,13 +105,13 @@ section{
     color: white;
   }
   .menu-btn:hover{
-  color: #7FFFD4;
+  color: #d44040;
   }
   header .navigation a{
 
     font-size: 18px;
     text-decoration: none;
-    font-weight: 200;
+    font-weight: 450;
     letter-spacing: 1px;
     padding: 2px 15px;
     border-radius: 20px;
@@ -111,7 +124,7 @@ section{
   }
   
   header .navigation a:hover{
-    background:#008B8B;
+    background: #d44040;
   }
 
 @media screen and (max-width: 800px) {
@@ -138,4 +151,20 @@ section{
   
   }
 }
- 
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:60px;
+	right:60px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:40px;
+	text-align:center;
+        font-size:30px;
+	
+}
+
+.whatsapp-icon {
+	margin-top:16px;
+}

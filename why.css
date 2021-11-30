@@ -14,7 +14,7 @@ section{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(bgnew.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(ios_14_wwdc_2020_iphone_12_ipados_blue_with_light_orange_stock_4k_hd_abstract.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -23,7 +23,7 @@ header{
   position: relative;
   top: 0;
   width: 100%;
-  padding: 30px 40px;
+  padding: 30px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,7 +35,7 @@ label{
 
 header .logo{
   position: relative;
-  color:#20B2AA;
+  color:white;
   font-size: 25px;
   text-decoration: none;
   text-transform: uppercase;
@@ -53,7 +53,7 @@ header .navigation a{
   color:white;
   font-size: 18px;
   text-decoration: none;
-  font-weight: 200;
+  font-weight: 450;
   letter-spacing: 1px;
   padding: 2px 15px;
   border-radius: 20px;
@@ -66,7 +66,7 @@ header .navigation a:not(:last-child){
 }
 
 header .navigation a:hover{
-  background: #008B8B;
+  background: #d44040;
 }
 
 .content{
@@ -76,8 +76,8 @@ header .navigation a:hover{
 }
 
 .content .info h2{
-  color: #7FFFD4;
-  font-size: 55px;
+  color: white;
+  font-size: 50px;
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 60px;
@@ -91,9 +91,10 @@ header .navigation a:hover{
 
 .content .info p{
   color:white;
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 18px;
+  font-weight: 350;
   margin-bottom: 40px;
+ 
 }
 
 .content .info-btn{
@@ -224,4 +225,21 @@ header .navigation a:hover{
   header .navigation a{
     color:#000;
   }
+}
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:60px;
+	right:60px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:40px;
+	text-align:center;
+        font-size:30px;
+	
+}
+
+.whatsapp-icon {
+	margin-top:16px;
 }

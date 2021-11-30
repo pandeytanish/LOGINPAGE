@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="login.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
   <title>Login </title>
 </head>
@@ -19,13 +20,13 @@
       <h2>Login Now</h2>
       <div class="form-control">
         <label for="username">Username</label>
-        <input type="text" id="username" placeholder="Enter username" required/>
+        <input type="text" id="username" placeholder="Enter username" required />
 
       </div>
 
       <div class="form-control">
-        <label for="password">Password</label>
-        <input type="password" id="password" placeholder="Enter password" required/>
+        <label for="password">Password</i></label>
+        <input type="password" id="password" placeholder="Enter password" required />
         <div class="forgot">
 
           <a href="forgot.html">Forgot password?</a>
@@ -33,25 +34,26 @@
         <BR>
         Not yet member? <a href="register.html">SIGNUP NOW</a>
         <!-- <button><a style="color: white;"href="SignedIn.html">LOGIN</a></button> -->
-        <button id="myBtn" id="" type="submit">login</button>
+        <button id="myBtn" id="" type="submit">LOGIN</button>
+        <button><a href="https://myaccount.google.com/?utm_source=sign_in_no_continue">SIGN IN WITH GOOGLE</a></button>
         <script>
           document.getElementById("myBtn").addEventListener("click", myFunction);
-          function myFunction(e){
+          function myFunction(e) {
             e.preventDefault()
             // <img src = "loader.green.gif" height="10em" width="10em"></img>
             // const Name = getElementById("username").value
             // const Password = getElementById("password").value
             // Name.value = "";
             // Password.value = "";
-          //  setTimeout(()=>{
-             
-          //  }, 3000)
+            //  setTimeout(()=>{
 
-           window.location.href="SignedIn.html";
-            
+            //  }, 3000)
+
+            window.location.href = "index2.html";
+
           }
         </script>
-        <button ><a href="https://myaccount.google.com/?utm_source=sign_in_no_continue">SIGN IN WITH GOOGLE</a></button>
+        
       </div>
 
 
@@ -59,7 +61,7 @@
     </form>
   </div>
 
-
+  <a href="https://wa.link/b4kk84" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 </body>
 
 </html>

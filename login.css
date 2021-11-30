@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-:root {
+/* :root {
   --success-color: #2ecc71;
   --error-color: #e74c3c;
-}
+  
+} */
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #20B2AA;
-  font-family: 'Open Sans', sans-serif;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(ios_14_wwdc_2020_iphone_12_ipados_blue_with_light_orange_stock_4k_hd_abstract.jpg);
+  background-size: cover;
+  background-position: center;
+ font-family: 'Open Sans', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,16 +72,32 @@ h2 {
 
 .form button {
   cursor: pointer;
-  background-color: #20B2AA;
-  border: 2px solid #20B2AA;
+  background-image:linear-gradient(to right, #C04848 0%, #480048  60%);
+  border: 2px solid ;
   border-radius: 6px;
   color: #fff;
-  display: block;
   font-size: 16px;
   padding: 10px;
   margin-top: 20px;
   width: 100%;
-
+  box-shadow: 0 0 1px #eee;
+}
+.form button a {
+color:#fff;
+font-weight:400;
+}
+.form button:hover {
+  /* background-position: right center; change the direction of the change here */
+  /* color: black;
+  text-decoration: none; */
+  background:transparent;
+  border: 2px solid #C04848 ;
+  color:#C04848;
+  font-weight:550;
+}
+.form button:hover a{
+  color:#C04848;
+  font-weight:550;
 }
 .forgot {
   text-align: left;
@@ -89,7 +108,25 @@ h2 {
   font-weight:400;
 }
 .container a{
-  color: #007771;
+  color: rgb(68, 68, 197);
   text-decoration: none;
   font-weight: bold;
+}
+
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:60px;
+	right:60px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:40px;
+	text-align:center;
+        font-size:30px;
+	
+}
+
+.whatsapp-icon {
+	margin-top:16px;
 }
