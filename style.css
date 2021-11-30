@@ -85,6 +85,14 @@ header .navigation a:hover{
   margin-bottom: 30px;
   
 }
+.content h3{
+  color: white;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  
+}
 
 .content .info h2 span{
   color:white;
